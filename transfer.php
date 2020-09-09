@@ -13,7 +13,7 @@
       die('Connect Error('.mysqli_connect_error().')'.mysqli_connect_error());
     }
 
-$result = mysqli_query($conn, "SELECT name FROM user "); 
+$result = mysqli_query($conn, "SELECT name FROM user ORDER BY id"); 
 ?>
 <!DOCTYPE HTML>
 <HTML>
